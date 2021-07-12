@@ -1,0 +1,108 @@
+.outercircle {
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  border: 2px dashed purple;
+  margin: 10% auto;
+  position: relative;
+}
+
+.item {
+  padding: 10px;
+  background: purple;
+  position: absolute;
+  transition: background .2s;
+}
+
+.item img {
+  border-radius: 100%;
+}
+
+.item-1 {
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+}
+
+.item-2 {
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  top: 50%;
+  right: -50px;
+  transform: translateY(-50%);
+}
+
+.item-3 {
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+}
+.item button{
+  background: #111;
+  color: #f2f2f2;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  z-index: 9;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.item-4 {
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  left: 50%;
+  bottom: -50px;
+  transform: translateX(-50%);
+}
+.item-5 {
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  left: 50%;
+  bottom: 40%;
+  transform: translateX(-50%);
+}
+.my-button {
+  width: 100px;
+  height: 100px;
+  outline-style:initial;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.outer:hover span:nth-child(2){
+  filter: blur(14px);
+}
+.item:hover{
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  animation: rotate 1.5s linear infinite;
+}
+center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.circle {
+  background: #456BD9;
+  border: 0.1875em solid #0F1C3F;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 5em;
+  width: 5em;
+}
